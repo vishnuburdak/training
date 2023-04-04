@@ -22,7 +22,7 @@ export class Server {
     this.connectMongoDb();
     this.app.use(
       cors({
-        origin: ["http://localhost:5000", "http://localhost:3000","https://backend-dzg3.onrender.com"],
+        origin: ["http://localhost:5000", "http://localhost:3000","https://backend-dzg3.onrender.com","https://new-repo.onrender.com"],
       })
     );
     this.configureBodyParser();
